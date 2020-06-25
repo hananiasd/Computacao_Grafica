@@ -26,4 +26,29 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 <br>
 <img src="https://raw.githubusercontent.com/hananiasd/Computacao_Grafica/master/T1_rasteriza%C3%A7%C3%A3o/img/DrawLine.png">
 <br>
+<h3>1.3 DrawTriangle</h3>
+<p>Esta funçaõ era totalmente dependente da DrawLine, pois criando a função que cria retas, bastava definir 3 retas que iria ser criado um triângulo. Logo, o próprio código desta função foi fácil, sendo apenas três chamadas da função DrawLine.</p>
+<p>Na figura abaixo podemos ver dois exemplos de triângulos criados por essa função, onde os triângulo estão posicionados em coordenadas diferentes e cada aresta possui sua cor</p>
+<br>
+<img src="https://raw.githubusercontent.com/hananiasd/Computacao_Grafica/master/T1_rasteriza%C3%A7%C3%A3o/img/DrawTriangle.png">
+<br>
+<h3>1.4 Dificuldades</h3>
+<p>As dificuldades encontradas na implementação deste trabalho foram a adaptação do algoritmo de Bresenham quando a função DrawLine estava sendo implementada, pois o algoritmo funciona apenas para um octante, logo, uma generalização do algoritmo teve que ser feita, para que incluisse em sua resolução todas as situações que poderiam ocorrer. Neste caso foram identificados algumas restrições que deveriam ser consertadas.
+  <ul>
+    <li><strong>Restrição 1</strong></li>
+    <p>Se o Δx for negativo, significa que a reta cresce para o lado negativo de x. Para solucionar este problema, bastava trocar o ponto inicial pelo ponto final.</p><br>
+    <li><strong>Restrição 2</strong></li>
+    <p>Se o Δy for negativo, significa que a reta cresce para o lado negativo de y. Para solução deste problema, uma variável denominada <i>inclin</i> foi criada para analisar previamente o valor de Δy, de Δy fosse negativo, a variável recebia o valor -1, caso contrário, recebia 1. Ou seja, se a variável recebesse -1 ela seria multiplicada pelo Δy negativo fazendo com que assim nao houvesse erros.</p><br>
+  </ul>
+  <p>A interpolação linear também foi uma dificuldade, não a sua implementação, mas sim a compreensão em como usar este cálculo e onde ele seria aplicado no código, por fim, foi visto que precisariamos de um cálculo de distância, onde a distância entre dois pontos euclidiana foi usada, neste caso foi usado uma variável que calculava a distância que faltava até o ponto destino e ia variando a tonalidade das cores, realizando a interpolação, até chegar ao ponto final.</p>
+  <br>
+  <h3>Conclusão</h3>
+  <p>Todos os objetivos do trabalho foram concluídos, desde o desenho do ponto na tela, passando pelo desenho da reta e chegando até o triângulo, usando a interpolação linear nas cores para ocorrer uma variação na tonalidade das retas criadas.</p>
+  <br>
+  <h3>Referências</h3>
+  <br>
+  <ul>
+  <li>https://letslearnbits.blogspot.com/2014/10/icgt1-interpolacao-de-cores.html</li>
+  </ul>
+  
 
