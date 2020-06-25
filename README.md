@@ -7,6 +7,11 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 <ol>
   <li><a href="https://github.com/hananiasd/Computacao_Grafica#1-rasteriza%C3%A7%C3%A3o">Rasterização</a></li><br>
   <ul>
+    <li><a href="https://github.com/hananiasd/Computacao_Grafica#11-putpixel">Função PutPixel</a></li>
+    <li><a href="https://github.com/hananiasd/Computacao_Grafica#12-drawline">Função DrawLine</a></li>
+    <li><a href="https://github.com/hananiasd/Computacao_Grafica#13-drawtriangle">Função DrawTriangle</a></li>
+    <li><a href="https://github.com/hananiasd/Computacao_Grafica#14-dificuldades">Dificuldades</a></li>
+    <li><a href="https://github.com/hananiasd/Computacao_Grafica#conclus%C3%A3o">Conclusão</a></li>
     <li><a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
   </ul>
 </ol>
