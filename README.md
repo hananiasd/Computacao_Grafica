@@ -5,7 +5,7 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 
 <h1>Sumário</h1>
 <ol>
-  <li>Rasterização</li>
+  <li>Rasterização</li><br>
   <ul>
     <li><a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
   </ul>
@@ -16,6 +16,14 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 
 <h3>1.1 PutPixel</h3>
 <p>A primeira função desenvolvida foi a PutPixel, que era para rasterização de um ponto. Esta função recebe como parâmetros as coordenadas x e y do pixel e as cores que representavam esse pixel, vale ressaltar que foi utilizada a estrutura de linguagem <i>Struct</i> para melhor resolução dos problemas que a implementação traria.</p>
-<p>Neste exemplo abaixo podemos ver alguns resultados da função PutPixel, onde podemos observar a impressão na tela de 6 pixels, onde cada um deles possui coordenadas e cores diferentes.</p>
-
+<p>Neste figura abaixo podemos ver alguns resultados da função PutPixel, onde podemos observar a impressão na tela de 6 pixels, onde cada um deles possui coordenadas e cores diferentes.</p>
+<br>
 <img src="https://raw.githubusercontent.com/hananiasd/Computacao_Grafica/master/T1_rasteriza%C3%A7%C3%A3o/img/PutPixel.png">
+<br>
+<h3>1.2 DrawLine</h3>
+<p>A função DrawLine utiliza uma variação do algoritmo de Bresenham para criar uma reta. A partir das coordenadas de dois pontos, uma reta é traçada de um ponto origem, até um ponto destino. Nesta função também foi utilizado uma interpolação linear nas cores que compõem a reta.</p>
+<p>Na figura abaixo vemos o resultado desta função, onde observamos 3 retas que foram criadas pelo algoritmo, com 3 diferentes angulações e cores.</p>
+<br>
+<img src="https://raw.githubusercontent.com/hananiasd/Computacao_Grafica/master/T1_rasteriza%C3%A7%C3%A3o/img/DrawLine.png">
+<br>
+
