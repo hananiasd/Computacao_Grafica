@@ -5,7 +5,7 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 
 <h1>Sumário</h1>
 <ol>
-  <li>Rasterização</li><br>
+  <li><a href="https://github.com/hananiasd/Computacao_Grafica#1-rasteriza%C3%A7%C3%A3o">Rasterização</a></li><br>
   <ul>
     <li><a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
   </ul>
