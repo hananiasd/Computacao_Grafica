@@ -46,8 +46,6 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
   <ul>
   <li>https://letslearnbits.blogspot.com/2014/10/icgt1-interpolacao-de-cores.html</li>
   </ul>
-  
-  
-  
-  
-  Teste
+---
+---
+Teste
