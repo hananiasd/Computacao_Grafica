@@ -14,11 +14,14 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
     <li><a href="https://github.com/hananiasd/Computacao_Grafica#conclus%C3%A3o">Conclusão</a></li>
     <li><a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
   </ul>
-  <li>OpenGL Moderno</li>
+</ol>
+<ol>
+  <li><a href="https://github.com/hananiasd/Computacao_Grafica#2-opengl-moderno">OpenGL Moderno</a></li>
   <ul>
-    <li>Resultados</li>
+    <li><a href="https://github.com/hananiasd/Computacao_Grafica#21-resultados">Resultados</li>
   </ul>
 </ol>
+  
 
 <h2>1. Rasterização</h2>
 <p>O trabalho tinha como objetivo dar uma familiarização com algoritmos de rasterização e OpenGL, e foram implementados 3 funções usando o algoritmo de rasterização de Bresenham, uma para rasterização de pontos, outra para rasterização de linhas e a partir da rasterização de linhas um triângulo deveria ser desenhado. Para simular o acesso direto à memória de vídeo foi disponibilizado pelo Professor um framework.</p>
@@ -59,3 +62,5 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 
 <h3>2.1 Resultados</h3>
 <p>O código disponibilizado pelo professor foi baixado do repositório onde estava. E após isso foi compilado, nenhum erro foi detectado durante a compilação, apenas a aparição de alguns <i>warnings</i>, que já havia sido informado pelo professor que isso poderia acontecer. Após o resultado da compilação, houve a execução do programa e o resultado podemos ver na figura abaixo:</p>
+
+<img src=https://github.com/hananiasd/Computacao_Grafica/blob/master/T2_opengl_moderno/img/cg_atividade2.gif>
