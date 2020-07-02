@@ -14,6 +14,10 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
     <li><a href="https://github.com/hananiasd/Computacao_Grafica#conclus%C3%A3o">Conclusão</a></li>
     <li><a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
   </ul>
+  <li>OpenGL Moderno</li>
+  <ul>
+    <li>Resultados</li>
+  </ul>
 </ol>
 
 <h2>1. Rasterização</h2>
@@ -47,3 +51,11 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
   <li>https://letslearnbits.blogspot.com/2014/10/icgt1-interpolacao-de-cores.html</li>
   </ul>
 
+---
+---
+
+<h2>2. OpenGL Moderno</h2>
+<p>Esse trabalho tem como objetivo verificar se o ambiente de trabalho utilizado está corretamente configurado com o OpenGL 3.3. O trabalho em si era compilar e executar um código disponibilizado pelo professor para que essa a validação de que o computador do aluno da disciplina estivesse com perfeitas condições de trabalho com o a versão moderna do OpenGL.</p>
+
+<h3>2.1 Resultados</h3>
+<p>O código disponibilizado pelo professor foi baixado do repositório onde estava. E após isso foi compilado, nenhum erro foi detectado durante a compilação, apenas a aparição de alguns <i>warnings</i>, que já havia sido informado pelo professor que isso poderia acontecer. Após o resultado da compilação, houve a execução do programa e o resultado podemos ver na figura abaixo:</p>
