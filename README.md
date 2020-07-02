@@ -4,24 +4,19 @@
 Neste repositório estão sendo apresentados os trabalhos referentes a disciplina de Introdução à Computação Gráfica, ministrada pelo Prof. Dr. Christian Azambuja Pagot durante o período suplementar 2019.4 da UFPB.
 
 <h1>Sumário</h1>
-<ol>
-  <li><a href="https://github.com/hananiasd/Computacao_Grafica#1-rasteriza%C3%A7%C3%A3o">Rasterização</a></li>
-  <ul>
-    <li><a href="https://github.com/hananiasd/Computacao_Grafica#11-putpixel">Função PutPixel</a></li>
-    <li><a href="https://github.com/hananiasd/Computacao_Grafica#12-drawline">Função DrawLine</a></li>
-    <li><a href="https://github.com/hananiasd/Computacao_Grafica#13-drawtriangle">Função DrawTriangle</a></li>
-    <li><a href="https://github.com/hananiasd/Computacao_Grafica#14-dificuldades">Dificuldades</a></li>
-    <li><a href="https://github.com/hananiasd/Computacao_Grafica#conclus%C3%A3o">Conclusão</a></li>
-    <li><a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
-  </ul>
-</ol>
-<ol>
-  <li><a href="https://github.com/hananiasd/Computacao_Grafica#2-opengl-moderno">OpenGL Moderno</a></li>
-  <ul>
-    <li><a href="https://github.com/hananiasd/Computacao_Grafica#21-resultados">Resultados</li>
-  </ul>
-</ol>
+
+  1. <a href="https://github.com/hananiasd/Computacao_Grafica#1-rasteriza%C3%A7%C3%A3o">Rasterização</a>
   
+   - <a href="https://github.com/hananiasd/Computacao_Grafica#11-putpixel">Função PutPixel</a>
+   - <a href="https://github.com/hananiasd/Computacao_Grafica#12-drawline">Função DrawLine</a>
+   - <a href="https://github.com/hananiasd/Computacao_Grafica#13-drawtriangle">Função DrawTriangle</a>
+   - <a href="https://github.com/hananiasd/Computacao_Grafica#14-dificuldades">Dificuldades</a>
+   - <a href="https://github.com/hananiasd/Computacao_Grafica#conclus%C3%A3o">Conclusão</a>
+   - <a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
+  
+  2. <a href="https://github.com/hananiasd/Computacao_Grafica#2-opengl-moderno">OpenGL Moderno</a>
+  
+   - <a href="https://github.com/hananiasd/Computacao_Grafica#21-resultados">Resultados</a>
 
 <h2>1. Rasterização</h2>
 <p>O trabalho tinha como objetivo dar uma familiarização com algoritmos de rasterização e OpenGL, e foram implementados 3 funções usando o algoritmo de rasterização de Bresenham, uma para rasterização de pontos, outra para rasterização de linhas e a partir da rasterização de linhas um triângulo deveria ser desenhado. Para simular o acesso direto à memória de vídeo foi disponibilizado pelo Professor um framework.</p>
