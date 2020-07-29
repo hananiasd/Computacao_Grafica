@@ -24,7 +24,7 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
         - <a href="https://github.com/hananiasd/Computacao_Grafica#32-exerc%C3%ADcio-2---transla%C3%A7%C3%A3o">Translação</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica#33-exerc%C3%ADcio-3---proje%C3%A7%C3%A3o-perspectiva">Projeção Perspectiva</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica#34-exerc%C3%ADcio-4---posi%C3%A7%C3%A3o-da-c%C3%A2mera">Posição da Câmera</a>
-        - <a href="https://github.com/hananiasd/Computacao_Grafica#34-exerc%C3%ADcio-5---transforma%C3%A7%C3%B5es-livres">Tranformações Livres</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#34-exerc%C3%ADcio-5---transforma%C3%A7%C3%B5es-livres">Transformações Livres</a>
 
 <h2>1. Rasterização</h2>
 <p>O trabalho tinha como objetivo dar uma familiarização com algoritmos de rasterização e OpenGL, e foram implementados 3 funções usando o algoritmo de rasterização de Bresenham, uma para rasterização de pontos, outra para rasterização de linhas e a partir da rasterização de linhas um triângulo deveria ser desenhado. Para simular o acesso direto à memória de vídeo foi disponibilizado pelo Professor um framework.</p>
