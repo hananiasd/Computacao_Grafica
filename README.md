@@ -12,13 +12,19 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
         - <a href="https://github.com/hananiasd/Computacao_Grafica#13-drawtriangle">Função DrawTriangle</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica#14-dificuldades">Dificuldades</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica#conclus%C3%A3o">Conclusão</a>
-        - <a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a></li>
-  
+        - <a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a>
+        
   2. <a href="https://github.com/hananiasd/Computacao_Grafica#2-opengl-moderno">OpenGL Moderno</a>
   
-        - <a href="https://github.com/hananiasd/Computacao_Grafica#21-resultados">Resultados</a>
-
-  3. <a href="">Pipeline Gráfico</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#21-resultados">Resultados</a><br></br>
+  
+  3. <a href="https://github.com/hananiasd/Computacao_Grafica#3-pipeline-gr%C3%A1fico">Pipeline Gráfico</a>
+  
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#31-exerc%C3%ADcio-1---escala">Escala</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#32-exerc%C3%ADcio-2---transla%C3%A7%C3%A3o">Translação</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#33-exerc%C3%ADcio-3---proje%C3%A7%C3%A3o-perspectiva">Projeção Perspectiva</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#34-exerc%C3%ADcio-4---posi%C3%A7%C3%A3o-da-c%C3%A2mera">Posição da Câmera</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#34-exerc%C3%ADcio-5---transforma%C3%A7%C3%B5es-livres">Tranformações Livres</a>
 
 <h2>1. Rasterização</h2>
 <p>O trabalho tinha como objetivo dar uma familiarização com algoritmos de rasterização e OpenGL, e foram implementados 3 funções usando o algoritmo de rasterização de Bresenham, uma para rasterização de pontos, outra para rasterização de linhas e a partir da rasterização de linhas um triângulo deveria ser desenhado. Para simular o acesso direto à memória de vídeo foi disponibilizado pelo Professor um framework.</p>
@@ -68,32 +74,32 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 <h2>3. Pipeline Gráfico</h2>
 <p>O objetivo desse trabalho é visualizar o pipeline gráfico através de algumas implementações de transformações geométricas que o compõem. A biblioteca <i>glm</i> foi utilizada para auxiliar essa implementação.
 A atividade consistiu em algumas alterações realizadas no código disponibilizado pelo professor, onde essas alterações eram nas matrizes <i>Model, View</i> e <i>Projection</i>. A imagem gerada originalmente pelo código-fonte disponibilizado está apresentada abaixo:</p>
-<img src="">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/Original.png">
 
 <h3>3.1 Exercício 1 - Escala</h3>
 <p>Modificação da matriz <i>MModel</i> de forma que a imagem gerada pelo programa alterasse a escala original dos triângulos. Os fatores de escala pedidos pelo professor foram <strong>(x, y, z) = (1/3, 3/2, 1)</strong>. A matriz alterada e a imagem gerada pelas mudanças estão apresentadas a seguir:</p>
-<img src="">
-<img src="">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/1_matrixmodel.png">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/exercicio1.png">
 
 <h3>3.2 Exercício 2 - Translação</h3>
 <p>Modificação novamente da matriz <i>MModel</i> de forma que a imagem gerada pelo programa alterasse a posição original dos triângulos, fazendo com que as formas ficassem localizadas a direita da janela. Os fatores de escala pedidos pelo professor foram <strong>(x, y, z) = (1, 0, 0)</strong>. A matriz alterada e a imagem gerada pelas mudanças estão apresentadas a seguir:</p>
-<img src="">
-<img src="">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/2_matrizmodel.png">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/exercicio2.png">
 
 <h3>3.3 Exercício 3 - Projeção Perspectiva</h3>
 <p>Modificação da matriz <i>MProjection</i> de forma que a imagem gerada pelo programa coloque o triângulo da cor azul um pouco mais ao fundo, como se ele estivesse em uma posição mais longe da câmera. A matriz de projeção utilizada foi a matriz que considera a câmera na origem do sistema de coordenadas. O parâmetro <i>d</i> pedido pelo professor foi <strong>d = 1/2</strong>. A matriz alterada e a imagem gerada pelas mudanças estão apresentadas a seguir:</p>
-<img src="">
-<img src="">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/3_matrizprojection.png">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/exercicio3.png">
 
 <h3>3.4 Exercício 4 - Posição da Câmera</h3>
 <p>Mantendo as modificações realizadas no exercício 3 e fazendo a modificação da matriz <i>MView</i> de forma que a imagem gerada pelo programa coloque os triângulos de uma forma diagonal. Nesse exercício foi necessário a construção de duas matrizes, a matriz da base da câmera e a matriz que translada a base da câmera. A matriz <i>MView</i> é construída com o produto das duas matrizes criadas (BT e T). Para esse desenvolvimento foi usado as funções da biblioteca glm. Os fatores pedidos pelo professor foi <strong>Posição da câmera = (-1/10, 1/10, 1/4), vetor Up da câmera = (0, 1, 0), ponto para qual a câmera aponta = (0, 0, 0)</strong>. A matriz alterada e a imagem gerada pelas mudanças estão apresentadas a seguir:</p>
-<img src="">
-<img src="">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/4_matrizview.png">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/exercicio4.png">
 
 <h3>3.4 Exercício 5 - Transformações Livres</h3>
 <p>Nessa atividade, é pedido transformações nas 3 matrizes utilizadas no desenvolvimento, para essas modificações foi feita uma nova geometria da fornecida originalmente. A nova forma foi feita com adições no array <i>vértices[]</i> de dois novos triângulos, outra mudança foi a localização onde os triângulos se encontravam, eles foram realocados para que a imagem tornasse forma. A nova forma desenhada se encontra abaixo:</p>
-<img src="">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/geometria05.png">
 
 <p>Após alterações nas 3 matrizes implementadas no código, a forma criada é a da imagem abaixo:</p>
-<img src="">
+<img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/exercicio5.png">
 
