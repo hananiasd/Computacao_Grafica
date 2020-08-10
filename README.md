@@ -28,8 +28,8 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
 
   4. <a href="https://github.com/hananiasd/Computacao_Grafica/blob/master/README.md#4-modelos-de-ilumina%C3%A7%C3%A3o">Modelos de Iluminação</a>
         
-        - <a href="https://github.com/hananiasd/Computacao_Grafica/blob/master/README.md#modelo-de-reflex%C3%A3o-difuso">Modelo de Reflexão Difuso</a>
-        - <a href="https://github.com/hananiasd/Computacao_Grafica/blob/master/README.md#modelo-de-reflex%C3%A3o-especular">Modelo de Reflexão Especular</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica/blob/master/README.md#41-modelo-de-reflex%C3%A3o-difuso">Modelo de Reflexão Difuso</a>
+        - <a href="https://github.com/hananiasd/Computacao_Grafica/blob/master/README.md#42-modelo-de-reflex%C3%A3o-especular">Modelo de Reflexão Especular</a>
 
 <h2>1. Rasterização</h2>
 <p>O trabalho tinha como objetivo dar uma familiarização com algoritmos de rasterização e OpenGL, e foram implementados 3 funções usando o algoritmo de rasterização de Bresenham, uma para rasterização de pontos, outra para rasterização de linhas e a partir da rasterização de linhas um triângulo deveria ser desenhado. Para simular o acesso direto à memória de vídeo foi disponibilizado pelo Professor um framework.</p>
