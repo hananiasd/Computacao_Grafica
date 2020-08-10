@@ -13,11 +13,11 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
         - <a href="https://github.com/hananiasd/Computacao_Grafica#14-dificuldades">Dificuldades</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica#conclus%C3%A3o">Conclusão</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica/tree/master/T1_rasteriza%C3%A7%C3%A3o">Código-Fonte</a>
-        
+
   2. <a href="https://github.com/hananiasd/Computacao_Grafica#2-opengl-moderno">OpenGL Moderno</a>
   
-        - <a href="https://github.com/hananiasd/Computacao_Grafica#21-resultados">Resultados</a><br></br>
-  
+        - <a href="https://github.com/hananiasd/Computacao_Grafica#21-resultados">Resultados</a>
+
   3. <a href="https://github.com/hananiasd/Computacao_Grafica#3-pipeline-gr%C3%A1fico">Pipeline Gráfico</a>
   
         - <a href="https://github.com/hananiasd/Computacao_Grafica#31-exerc%C3%ADcio-1---escala">Escala</a>
@@ -25,6 +25,11 @@ Neste repositório estão sendo apresentados os trabalhos referentes a disciplin
         - <a href="https://github.com/hananiasd/Computacao_Grafica#33-exerc%C3%ADcio-3---proje%C3%A7%C3%A3o-perspectiva">Projeção Perspectiva</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica#34-exerc%C3%ADcio-4---posi%C3%A7%C3%A3o-da-c%C3%A2mera">Posição da Câmera</a>
         - <a href="https://github.com/hananiasd/Computacao_Grafica#34-exerc%C3%ADcio-5---transforma%C3%A7%C3%B5es-livres">Transformações Livres</a>
+
+  4. <a href="">Modelos de Iluminação</a>
+
+        - <a href="">Modelo de Reflexão Difuso</a>
+        - <a href="">Modelo de Reflexão Especular</a>
 
 <h2>1. Rasterização</h2>
 <p>O trabalho tinha como objetivo dar uma familiarização com algoritmos de rasterização e OpenGL, e foram implementados 3 funções usando o algoritmo de rasterização de Bresenham, uma para rasterização de pontos, outra para rasterização de linhas e a partir da rasterização de linhas um triângulo deveria ser desenhado. Para simular o acesso direto à memória de vídeo foi disponibilizado pelo Professor um framework.</p>
@@ -103,3 +108,24 @@ A atividade consistiu em algumas alterações realizadas no código disponibiliz
 <p>Após alterações nas 3 matrizes implementadas no código, a forma criada é a da imagem abaixo:</p>
 <img src="https://github.com/hananiasd/Computacao_Grafica/blob/master/T3_pipeline_gr%C3%A1fico/img/exercicio5.png">
 
+---
+---
+
+<h2>4. Modelos de Iluminação</h2>
+<p>O objetivo desse trabalho é a familiarização com os modelos de iluminação tradicionalmente usados na rasterização, que são: <i>ambiente</i>, <i>difuso</i> e <i>especular (Phong)</i>. Para a atividade foi usado o código disponibilizado pelo professor, onde a cena a ser renderizada é uma malha de triângulos que representa o <i>Utah Teapot</i> e uma fonte de luz pontual.</p>
+<p>O programa usado como base renderiza o <i>teapot</i> usado apenas o modelo de reflexão <i>ambiente</i>. A atividade consiste em alterar o conteúdo do <i>vertex shader</i> de forma a adicionar os outros modelos de reflexão, <i>difuso</i> e <i>especular</i>. A imagem apresentada após a compilação do template disponibilizado se encontra abaixo:</p>
+<img src="">
+
+<h3>Modelo de Reflexão Difuso</h3>
+<p>Para incluir o modelo de <i>difuso</i> é necessário calcular o valor do vetor normal N e o vetor L que aponta do vértice para a fonte de luz. Foi seguido as sugestões de cálculo dos dois vetores disponibilizados no documento, e o modelo de iluminação difuso a ser avaliado foi o seguinte:</p>
+<img src="">
+<p>Onde, <strong>Ia</strong> é a intesidade da luz ambiente, <strong>Ka</strong> é o coeficiente de reflectância ambiente, <strong>Ip</strong> é a intensidade da luz pontual, <strong>Kd</strong> é o coeficiente de reflectância do objeto e o <strong>cos θ</strong> é o cosseno do ângulo formado entre o vetor normal N e o vetor L.</p>
+<p>As mudanças feitas no código base se encontram abaixo, assim como o resultado obtido por essas mudanças:</p>
+<img src="">
+<img src="">
+
+<h3>Modelo de Reflexão Especular</h3>
+<p>Além do modelo de iluminação ambiente e difuso, nesse exercício deve haver a inclusão do modelo <i>especular</i>. Para isso é necessário calcular o vetor R de reflexão da luz L e o vetor da câmera V, que aponta do vértice em questão para a câmera. As sugestões também foram seguidas, e o modelo de iluminação a ser avaliado deve ser:</p>
+<img src="">
+<p>Onde, <strong>Ia</strong> é a intesidade da luz ambiente, <strong>Ka</strong> é o coeficiente de reflectância ambiente, <strong>Ip</strong> é a intensidade da luz pontual, <strong>Kd</strong> é o coeficiente de reflectância do objeto, <strong>cos θ</strong> é o cosseno do ângulo formado entre o vetor normal N e o vetor L, <strong>Ks</strong> é o coeficiente de reflectância especular, <strong>cos α</strong> é o ângulo formado entre o vetor R e o vetor V e o <strong>n</strong> é a potência do termo especular.</p>
+<p>As mudanças feitas no código se encontram abaixo assim como o resultado obtido.</p>
